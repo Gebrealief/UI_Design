@@ -4,56 +4,95 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-        
-    </head>
-    <body>
-        <!--[if lt IE 7]>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>home</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        
-        <div class="header">
+
+    <div class="header" id="myHeader">
         <div class="square1"> </div>
-        <h2 id="my-name"> Hewan Gebreslassie / Angular developer </h2>
+        <h2 id="my-name"> Hewan Gebreslassie / </h2>
+        <p id="tite">Angular developer</p>
         <div class="menu-bar">
-                <a href="#home">ABOUT ME</a>
-                <a href="#news">RESUME</a>
-                <a href="#contact">PROJECTS</a>
-                <a href="#about">CONTACT</a>        
-                    
-           
+            <a href="#home">ABOUT ME</a>
+            <a href="#news">RESUME</a>
+            <a href="#contact">PROJECTS</a>
+            <a href="#about">CONTACT</a>
+
+
         </div>
-        </div>
-        <div class="main-content">
-            <div class="square2"> </div>
-            <div class="square3"> <div class="circle"><img src="../assets/me.jpg" alt="Profile picture"> </div>
-            <h2 id="fname"> Hewan  </h2>
-            <h2 id="lname">  Gebreslassie </h2>
+    </div>
+    <div class="main-content">
+        <div class="square2"> </div>
+        <div class="square3">
+            <div class="circle"><img id="image_me" src="../assets/Capture.PNG" alt="Profile picture"> </div>
+            <h2 id="fname"> Hewan </h2>
+            <h2 id="lname"> Gebreslassie </h2>
             <hr>
             <h2 id="title"> Angular developer </h2>
-        
-        
+
+
         </div>
-            
-            <div class="square4">
-                <div class="icons">
+
+        <div class="square4">
+            <div class="icons">
+                <img id="fb" src="../assets/f.png" alt="Facebook">
+                <img id="twitter" src="../assets/t.png" alt="twitter">
+                <img id="git" src="../assets/G.png" alt="Github">
+                <img id="linkdin" src="../assets/n.png" alt="Linkdin">
+            </div>
+
+        </div>
+        <div class="square5">
+            <p id="hello">Hello</p>
+            <p class="pos">I am Angular Developer</p>
+            <div id="buttons">
+                <button id="resume" onclick="Window.open('https://www.google.com/');">RESUME</button>
+                <button id="proj">PROJECTS</button>
+            </div>
+            <p class="pos" id="firstP"> I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. </p>
+            <p class="pos" id="secondP">
+                I’m a great place for you to tell a story and let your users know a little more about you.</p>
+        </div>
+        <div class="contact">
+            <div id="call">
+                <h4> Call</h4>
+                <p> 614-670-0758</p>
+            </div>
+            <div id="write">
+                <h4> Write</h4>
+                <p> hewan.83@gmail.com</p>
+            </div>
+            <div id="follow">
+                <h4> Follow </h4>
+                <div class="icons2">
                     <img id="fb" src="../assets/f.png" alt="Facebook">
                     <img id="twitter" src="../assets/t.png" alt="twitter">
-                    <img id="git" src="../assets/Git.png" alt="Github">
-                    <img id="linkdin" src="../assets/ln.png" alt="Linkdin">
+                    <img id="git" src="../assets/G.png" alt="Github">
+                    <img id="linkdin" src="../assets/n.png" alt="Linkdin">
+                </div>
             </div>
-            
         </div>
-        
-        
-        <script src="" async defer></script>
-    </body>
+
+
+        <script src="script.js" async defer></script>
+</body>
+
 </html>
